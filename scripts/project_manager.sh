@@ -488,7 +488,7 @@ show_help() {
 用法: $0 <command> [options]
 
 命令:
-  addall/-A                  扫描并注册所有项目
+  update/-u                  扫描并注册所有项目
   add/-a <project_name>      添加单个项目
   remove/-rm <project_name>  移除项目
   list/-l                    列出所有项目
@@ -497,7 +497,7 @@ show_help() {
   help/-h                    显示帮助信息
 
 示例:
-  $0 addall
+  $0 update
   $0 add task1
   $0 status task1
   $0 restart task1
